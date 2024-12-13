@@ -1,0 +1,9 @@
+{% extends 'layout/master.html' %}
+
+{% block content %}
+<h1>{{title}}</h1>
+{% for item in programming_lang %}
+<p>{{item}}</p>
+{% endfor %}
+<img src="static/img/filename" alt="Not found">
+{% endblock %}
